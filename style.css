@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+ul.topNav{
+    list-style-type: none;
+    overflow: hidden;
+}
+ul.topNav li {
+    float: left;
+}
+ul.topNav li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+ul.topNav a.selected{
+    color: #e74c3c;
+}
+ul.topNav li a:hover{
+    background-color: #7f8c8d;
+}
+#content{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+    color: white;
+    font-size: 32px;
+}
